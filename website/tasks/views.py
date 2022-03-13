@@ -22,7 +22,7 @@ def add(request):
         if userform.is_valid():
             usertasks = userform.cleaned_data["task"]
             request.session["tasks"] += [usertasks]
-            return HttpResponseRedirect(reverse("tasks:add"))
+            return HttpResponseRedirect(reverse("tasks:index"))
         else:
             return render(request,"tasks/add.html",{
                 "form":userform

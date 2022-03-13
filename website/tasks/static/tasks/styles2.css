@@ -1,0 +1,19 @@
+
+body{
+    background-image: linear-gradient(red, yellow, blue);
+}
+ol{
+    color:black;
+    border-style: solid;
+    border: 5px;
+    text-align:left;
+    font-family: fantasy;
+}
+a{
+    
+    border-style:inherit;
+    border-width: 5px;
+    border-color:red;
+    font-family: fantasy;
+    color:navy;  
+}
