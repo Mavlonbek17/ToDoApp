@@ -15,5 +15,6 @@ a{
     border-width: 5px;
     border-color:red;
     font-family: fantasy;
-    color:navy;  
+    color:navy;
+    text-decoration: none;
 }
