@@ -5,6 +5,7 @@
 <link rel="stylesheet" type="text/css" href="{% static 'tasks/styles.css' %}">
 
 <h1>Add Tasks</h1>
+Hello My Name Is Mavlonbek 
 <form action="{% url 'tasks:add' %}"method = post>
     {% csrf_token %}
     {{form}}
